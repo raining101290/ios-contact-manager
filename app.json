@@ -11,12 +11,15 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
         "NSContactsUsageDescription": "Your reason for accessing contacts"
-      }
+      },
+      "bundleIdentifier": "com.itsrain.contactmanager"
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
@@ -26,10 +29,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/favicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.itsrain.contactmanager"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8cca14a-75c9-4af8-8a0f-d09d94645677"
+      }
     }
   }
 }
